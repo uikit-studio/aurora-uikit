@@ -22,7 +22,7 @@ export function Layout() {
       end={to === "/"}
       className={({ isActive }) =>
         cn(
-          "rounded-[--radius] px-3 py-1.5 text-sm font-medium transition-colors",
+          "rounded-[var(--radius)] px-3 py-1.5 text-sm font-medium transition-colors",
           isActive ? "bg-primary/10 text-primary" : "text-muted-foreground hover:text-foreground",
         )
       }

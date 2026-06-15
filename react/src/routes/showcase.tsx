@@ -34,7 +34,7 @@ export function Showcase() {
               ["ink", "bg-ink"],
             ].map(([name, cls]) => (
               <div key={name}>
-                <div className={`h-16 rounded-[--radius] border border-border ${cls}`} />
+                <div className={`h-16 rounded-[var(--radius)] border border-border ${cls}`} />
                 <p className="mt-1.5 font-mono text-xs text-muted-foreground">{name}</p>
               </div>
             ))}

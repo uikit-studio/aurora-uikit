@@ -3,7 +3,7 @@ import * as React from "react";
 import { cn } from "../lib/cn";
 
 const button = cva(
-  "inline-flex items-center justify-center gap-2 rounded-[--radius] font-display font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 active:scale-[0.98] disabled:opacity-50 whitespace-nowrap",
+  "inline-flex items-center justify-center gap-2 rounded-[var(--radius)] font-display font-semibold transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/40 active:scale-[0.98] disabled:opacity-50 whitespace-nowrap",
   {
     variants: {
       variant: {

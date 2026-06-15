@@ -39,13 +39,13 @@ export function Landing() {
             </div>
             <div className="grid gap-3 p-6 sm:grid-cols-3">
               {["MRR", "Users", "Churn"].map((k, i) => (
-                <div key={k} className="rounded-[--radius] border border-border/60 bg-card/60 p-4">
+                <div key={k} className="rounded-[var(--radius)] border border-border/60 bg-card/60 p-4">
                   <div className="font-mono text-[10px] uppercase text-muted-foreground">{k}</div>
                   <div className="mt-1 h-6 w-20 rounded bg-foreground/80" />
                   <div className={`mt-2 h-2 w-12 rounded ${i === 2 ? "bg-rose-400" : "bg-success"}`} />
                 </div>
               ))}
-              <div className="rounded-[--radius] border border-border/60 bg-card/60 p-4 sm:col-span-3">
+              <div className="rounded-[var(--radius)] border border-border/60 bg-card/60 p-4 sm:col-span-3">
                 <div className="flex items-end gap-1.5">
                   {[40, 65, 50, 80, 60, 95, 72].map((h, i) => (
                     <div key={i} className="flex-1 rounded-t bg-gradient-to-t from-brand-500 to-accent" style={{ height: h }} />
@@ -87,14 +87,14 @@ export function Landing() {
       {/* Dark bento */}
       <section className="py-20">
         <Container>
-          <div className="mesh rounded-[--radius-lg] bg-ink p-10 text-ink-foreground sm:p-16">
+          <div className="mesh rounded-[var(--radius-lg)] bg-ink p-10 text-ink-foreground sm:p-16">
             <h2 className="max-w-xl font-display text-4xl font-bold tracking-tight sm:text-5xl">
               {t.bento.heading} <Mark>{t.bento.headingMark}</Mark>
             </h2>
             <p className="mt-3 max-w-md text-ink-foreground/70">{t.bento.sub}</p>
             <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
               {t.bento.items.map((item) => (
-                <div key={item} className="rounded-[--radius] border border-white/10 bg-white/5 p-5 font-display font-semibold">
+                <div key={item} className="rounded-[var(--radius)] border border-white/10 bg-white/5 p-5 font-display font-semibold">
                   <span className="text-brand-400">●</span>
                   <p className="mt-3 text-sm">{item}</p>
                 </div>

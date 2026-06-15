@@ -18,7 +18,7 @@ export function Dashboard() {
                 key={item}
                 href="#"
                 className={
-                  "block rounded-[--radius] px-4 py-2 " +
+                  "block rounded-[var(--radius)] px-4 py-2 " +
                   (i === 0 ? "bg-primary/10 text-primary" : "text-muted-foreground hover:bg-muted")
                 }
               >
