@@ -44,6 +44,28 @@ export const en = {
     ],
   },
   cta: { heading: "Ready to", headingMark: "ship Aurora?", body: "Clone the kit and launch your dashboard today.", button: "Start building", note: "Free forever · no credit card · open source" },
+  logosLabel: "Trusted by product teams at",
+  logos: ["Globex", "Initech", "Umbrella", "Acme", "Hooli", "Soylent"],
+  metrics: {
+    heading: "Built for",
+    headingMark: "scale.",
+    items: [
+      { value: "99.99%", label: "Uptime SLA" },
+      { value: "<40ms", label: "p95 latency" },
+      { value: "1,800+", label: "Teams shipping" },
+      { value: "12M", label: "Events / day" },
+    ],
+  },
+  faq: {
+    heading: "Questions,",
+    headingMark: "answered.",
+    items: [
+      { q: "Is Aurora production-ready?", a: "Yes — a runnable React app with a full design system, light + dark, and EN/AR + RTL." },
+      { q: "Can I use just one component?", a: "Yes — `npx uikit-studio add button` copies it with its dependencies." },
+      { q: "Does it support dark mode and Arabic?", a: "Both, out of the box — tokens flip for dark, and the layout mirrors in RTL." },
+      { q: "What's the license?", a: "MIT. Clone it, ship it, make it yours." },
+    ],
+  },
   footer: { tagline: "The glassy SaaS kit, in every framework.", rights: "© 2026 Aurora — ship calm.", links: ["Privacy", "Terms", "Status"] },
   dashboard: {
     title: "Overview",
