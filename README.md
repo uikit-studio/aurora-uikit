@@ -35,8 +35,9 @@ tokens and components — consistent and cheap.
 | **Display** | Sora |
 | **Body** | Inter |
 | **Mono** | JetBrains Mono |
-| **Radius** | 1rem · soft glass shadow |
+| **Radius** | 1rem cards · 1.5rem sections · soft glass shadow |
 | **Modes** | light + dark |
+| **Responsive** | mobile → tablet → desktop (Tailwind `sm`/`md`/`lg`/`xl`) |
 | **i18n** | EN + AR with full RTL |
 
 **Components** — Button · Card · Input · Badge · Pill · Mark · Marquee · Container
