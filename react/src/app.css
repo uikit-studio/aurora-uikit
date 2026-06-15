@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "../../design/theme.css";
+
+body {
+  margin: 0;
+}
+
+@keyframes aurora-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+[dir="rtl"] .aurora-marquee-track {
+  animation-direction: reverse;
+}
+.aurora-marquee-track {
+  animation: aurora-marquee 30s linear infinite;
+}

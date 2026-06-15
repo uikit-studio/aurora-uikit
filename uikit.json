@@ -1,0 +1,90 @@
+{
+  "$schema": "https://uikit.dev/schema/v1.json",
+  "manifestVersion": 1,
+  "id": "aurora",
+  "name": "Aurora",
+  "version": "1.0.0",
+  "description": "Clean, glassy SaaS kit — blue, Sora display, dark mode, EN/AR + RTL. Runnable React/Vue/Web Components apps.",
+  "author": { "name": "UIKit Team", "github": "uikit-studio", "url": "https://uikit.studio" },
+  "license": "MIT",
+  "homepage": "https://uikit.studio/demos/aurora/",
+  "repository": "https://github.com/uikit-studio/aurora-uikit",
+
+  "categories": ["saas", "dashboard", "dark-first"],
+  "tags": ["glassmorphism", "blue", "inter"],
+
+  "tech": {
+    "frameworks": ["react"],
+    "styling": "both",
+    "tailwindVersion": "^4.0.0",
+    "icons": "lucide",
+    "deps": ["class-variance-authority", "clsx", "tailwind-merge"]
+  },
+
+  "design": {
+    "tokens": "design/tokens.json",
+    "tailwindPreset": "design/tailwind-preset.js",
+    "themeCss": "design/theme.css",
+    "fonts": [
+      { "family": "Sora", "source": "google" },
+      { "family": "Inter", "source": "google" }
+    ],
+    "palettes": [{ "name": "default", "primary": "#3b82f6" }],
+    "modes": ["light", "dark"]
+  },
+
+  "surface": {
+    "components": [
+      { "name": "Button", "react": "react/src/components/button.tsx" },
+      { "name": "Card", "react": "react/src/components/card.tsx" },
+      { "name": "Input", "react": "react/src/components/input.tsx" },
+      { "name": "Badge", "react": "react/src/components/badge.tsx" },
+      { "name": "Pill", "react": "react/src/components/pill.tsx" },
+      { "name": "Mark", "react": "react/src/components/mark.tsx" },
+      { "name": "Marquee", "react": "react/src/components/marquee.tsx" },
+      { "name": "Container", "react": "react/src/components/container.tsx" }
+    ],
+    "blocks": [
+      { "name": "StatCards" },
+      { "name": "Footer" }
+    ],
+    "templates": [
+      { "name": "Landing", "route": "/", "preview": "screenshots/landing.svg" },
+      { "name": "Pricing", "route": "/pricing" },
+      { "name": "Dashboard", "route": "/dashboard", "preview": "screenshots/dashboard.svg" },
+      { "name": "Showcase", "route": "/components" }
+    ]
+  },
+
+  "prompts": {
+    "origin": "prompts/build.md",
+    "extend": "prompts/extend.md",
+    "skillVersion": "uikit-standard@1.0"
+  },
+
+  "consume": {
+    "skill": ".claude/skills/aurora",
+    "skillName": "aurora-ui",
+    "steps": [
+      "git clone https://github.com/uikit-studio/aurora-uikit my-app",
+      "cd my-app/react && pnpm install && pnpm dev",
+      "Open in Claude Code and ask: 'build a billing dashboard using this kit'"
+    ],
+    "entry": "USAGE.md",
+    "requires": ["node>=20", "tailwind>=4"]
+  },
+
+  "media": {
+    "demoUrl": "https://uikit.studio/demos/aurora/",
+    "screenshots": [
+      { "kind": "logo", "src": "screenshots/logo.svg" },
+      { "kind": "landing", "src": "screenshots/landing.svg" },
+      { "kind": "dashboard", "src": "screenshots/dashboard.svg" }
+    ]
+  },
+
+  "registry": {
+    "install": "npx uikit-studio add aurora",
+    "components": "registry/index.json"
+  }
+}
