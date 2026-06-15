@@ -147,7 +147,7 @@ export function Dashboard() {
             <Card className="lg:col-span-2">
               <CardHeader className="flex-row items-center justify-between">
                 <CardTitle>{d.tableTitle}</CardTitle>
-                <Badge variant="brand">live</Badge>
+                <Badge variant="brand">{d.live}</Badge>
               </CardHeader>
               <CardContent>
                 <table className="w-full text-start text-sm">
