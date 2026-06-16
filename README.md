@@ -9,7 +9,9 @@ React app you clone and build your product from — not a bin of loose component
 ![License](https://img.shields.io/badge/license-MIT-34d399)
 ![Frameworks](https://img.shields.io/badge/react-19-555)
 
-![Aurora landing](./screenshots/landing.png)
+<video src="https://github.com/uikit-studio/aurora-uikit/raw/main/screenshots/preview.webm" poster="https://github.com/uikit-studio/aurora-uikit/raw/main/screenshots/landing.png" muted loop playsinline width="100%"></video>
+
+> Video not playing? [▶ Watch the preview ↗](https://github.com/uikit-studio/aurora-uikit/raw/main/screenshots/preview.webm) · [screenshot ↗](./screenshots/landing.png) · [live demo ↗](https://uikit.studio/demos/aurora/)
 
 **[▶ Open the live demo →](https://uikit.studio/demos/aurora/)** &nbsp;·&nbsp;
 **[Gallery page →](https://uikit.studio/kit/aurora)**
