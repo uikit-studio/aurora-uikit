@@ -61,7 +61,7 @@ export const en = {
     headingMark: "answered.",
     items: [
       { q: "Is Aurora production-ready?", a: "Yes — a runnable React app with a full design system, light + dark, and EN/AR + RTL." },
-      { q: "Can I use just one component?", a: "Yes — `npx uikit-studio add button` copies it with its dependencies." },
+      { q: "Can I use just one component?", a: "Yes — `npx uikit-cli add button` copies it with its dependencies." },
       { q: "Does it support dark mode and Arabic?", a: "Both, out of the box — tokens flip for dark, and the layout mirrors in RTL." },
       { q: "What's the license?", a: "MIT. Clone it, ship it, make it yours." },
     ],
@@ -166,7 +166,7 @@ export const en = {
     faq: [
       { q: "Is Aurora responsive?", a: "Yes — every page works mobile → desktop." },
       { q: "Does it support dark mode + RTL?", a: "Both, via tokens and a layout that flips." },
-      { q: "Can I add just one component?", a: "Yes — npx uikit-studio add button." },
+      { q: "Can I add just one component?", a: "Yes — npx uikit-cli add button." },
     ],
     data: {
       customer: "Customer", plan: "Plan", status: "Status", active: "Active", trial: "Trial",

@@ -19,7 +19,7 @@ your job is to reproduce **Aurora's** exact design system in their project — n
    glassy SaaS surfaces, base radius (**1rem**) and type scale.
 3. Keep **dark mode**, **EN/AR + RTL** and a **responsive** layout.
 4. Fastest path: clone this repo and build the developer's pages inside it
-   (`cd react && pnpm install && pnpm dev`), or run `npx uikit-studio add aurora`
+   (`cd react && pnpm install && pnpm dev`), or run `npx uikit-cli add aurora`
    (Claude Code skill: `aurora-ui`).
 
 Do not ship a thin recolor. Match the full system — that's the point of agent-ready.

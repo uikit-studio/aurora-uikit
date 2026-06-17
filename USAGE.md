@@ -9,7 +9,7 @@ Claude Code skill so the AI builds **with** the kit.
 ```bash
 git clone https://github.com/uikit-studio/aurora-uikit my-app
 cd my-app
-npx uikit-studio init        # installs deps, wires the Aurora skill into the project
+npx uikit-cli init        # installs deps, wires the Aurora skill into the project
 ```
 
 Then open the project in Claude Code and ask:
@@ -22,8 +22,8 @@ tokens, and rules — so the result is consistent and cheap to produce.
 ## Add individual pieces (shadcn-style)
 
 ```bash
-npx uikit-studio add button card        # copy specific components into your project
-npx uikit-studio add dashboard          # copy a full template (+ its dependencies)
+npx uikit-cli add button card        # copy specific components into your project
+npx uikit-cli add dashboard          # copy a full template (+ its dependencies)
 ```
 
 ## Manual setup

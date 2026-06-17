@@ -13,4 +13,4 @@ Rules when extending:
 
 1. New tokens go in `tokens.json` first, then mirror into `theme.css`/`tailwind-preset.js`.
 2. New surface items must be added to `uikit.json` (`surface`) and `registry/index.json`.
-3. Run `npx uikit-studio validate` before committing — the manifest must stay contract-valid.
+3. Run `npx uikit-cli validate` before committing — the manifest must stay contract-valid.

@@ -84,7 +84,7 @@
   },
 
   "registry": {
-    "install": "npx uikit-studio add aurora",
+    "install": "npx uikit-cli add aurora",
     "components": "registry/index.json"
   }
 }
